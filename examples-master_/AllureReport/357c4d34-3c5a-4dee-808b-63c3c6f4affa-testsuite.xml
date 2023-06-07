@@ -1,0 +1,213 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1685969335600' stop='1685969376798'>
+    <name>Checkout</name>
+    <title>Checkout</title>
+    <test-cases>
+        <test-case start='1685969335602' status='passed' stop='1685969353079'>
+            <name>Order product</name>
+            <title>Order product</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1685969347657' status='passed' stop='1685969349568'>
+                    <name>BasePage: launchApp </name>
+                    <title>BasePage: launchApp </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969347657' status='passed' stop='1685969349567'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1685969349568' status='passed' stop='1685969349994'>
+                    <name>Given Launch Application </name>
+                    <title>Given Launch Application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969349568' status='passed' stop='1685969349994'>
+                            <name>I save screenshot "pptr.png"</name>
+                            <title>I save screenshot "pptr.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1685969349994' status='passed' stop='1685969350465'>
+                    <name>BasePage: login "standard_user", "secret_sauce"</name>
+                    <title>BasePage: login "standard_user", "secret_sauce"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969349994' status='passed' stop='1685969350131'>
+                            <name>I type text "#user-name", "standard_user"</name>
+                            <title>I type text "#user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969350132' status='passed' stop='1685969350262'>
+                            <name>I type text "#password", "secret_sauce"</name>
+                            <title>I type text "#password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969350262' status='passed' stop='1685969350464'>
+                            <name>I wait and click "#login-button"</name>
+                            <title>I wait and click "#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1685969350465' status='passed' stop='1685969351470'>
+                    <name>Then I login to the application </name>
+                    <title>Then I login to the application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969350465' status='passed' stop='1685969351470'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1685969351470' status='passed' stop='1685969351706'>
+                    <name>BasePage: addToCart "Sauce Labs Backpack"</name>
+                    <title>BasePage: addToCart "Sauce Labs Backpack"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969351470' status='passed' stop='1685969351624'>
+                            <name>I click "Sauce Labs Backpack"</name>
+                            <title>I click "Sauce Labs Backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969351624' status='passed' stop='1685969351652'>
+                            <name>I wait and click "#add-to-cart-sauce-labs-backpack"</name>
+                            <title>I wait and click "#add-to-cart-sauce-labs-backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969351652' status='passed' stop='1685969351700'>
+                            <name>I wait and click ".shopping_cart_link"</name>
+                            <title>I wait and click ".shopping_cart_link"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969351701' status='passed' stop='1685969351706'>
+                            <name>I see "Sauce Labs Backpack"</name>
+                            <title>I see "Sauce Labs Backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1685969351706' status='passed' stop='1685969352708'>
+                    <name>Then I add 'Sauce Labs Backpack' product to cart </name>
+                    <title>Then I add 'Sauce Labs Backpack' product to cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969351706' status='passed' stop='1685969352707'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1685969352708' status='passed' stop='1685969353079'>
+                    <name>BasePage: checkoutFromCart {"uid":"standard_user","pwd":"secret_sauce","firstname":"testuser","lastname":"testlastname","postalcode":"121212"}</name>
+                    <title>BasePage: checkoutFromCart {"uid":"standard_user","pwd":"secret_sauce","firstname":"testuser","lastname":"testlastname","postalcode":"121212"}</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969352708' status='passed' stop='1685969352769'>
+                            <name>I wait and click "#checkout"</name>
+                            <title>I wait and click "#checkout"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969352769' status='passed' stop='1685969352852'>
+                            <name>I type text "#first-name", "testuser"</name>
+                            <title>I type text "#first-name", "testuser"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969352852' status='passed' stop='1685969352979'>
+                            <name>I type text "#last-name", "testlastname"</name>
+                            <title>I type text "#last-name", "testlastname"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969352980' status='passed' stop='1685969353077'>
+                            <name>I type text "#postal-code", "121212"</name>
+                            <title>I type text "#postal-code", "121212"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1685969354451' status='passed' stop='1685969375824'>
+            <name>Mobile Calculator</name>
+            <title>Mobile Calculator</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1685969365440' status='passed' stop='1685969375824'>
+                    <name>BasePage: calcMobile </name>
+                    <title>BasePage: calcMobile </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969365440' status='passed' stop='1685969370453'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969370453' status='passed' stop='1685969370808'>
+                            <name>I save screenshot "1.png"</name>
+                            <title>I save screenshot "1.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969370808' status='passed' stop='1685969372221'>
+                            <name>I tap "#com.google.android.calculator:id/digit_5"</name>
+                            <title>I tap "#com.google.android.calculator:id/digit_5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969372222' status='passed' stop='1685969373158'>
+                            <name>I tap "~plus"</name>
+                            <title>I tap "~plus"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969373158' status='passed' stop='1685969374336'>
+                            <name>I tap "#com.google.android.calculator:id/digit_2"</name>
+                            <title>I tap "#com.google.android.calculator:id/digit_2"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969374337' status='passed' stop='1685969375462'>
+                            <name>I tap "~equals"</name>
+                            <title>I tap "~equals"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969375462' status='passed' stop='1685969375824'>
+                            <name>I save screenshot "2.png"</name>
+                            <title>I save screenshot "2.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

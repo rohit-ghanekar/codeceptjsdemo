@@ -1,0 +1,34 @@
+{"type":"enterSuite","suite":"Checkout","at":0}
+{"type":"enterTest","test":"Order product","at":529}
+{"type":"enterStep","prefix":"","actor":"I","args":["https://www.saucedemo.com/"],"suffix":"","at":558}
+{"type":"leaveStep","actor":"I","action":"amOnPage","args":["https://www.saucedemo.com/"],"humanizedName":"am on page","humanizedArgs":"\"https://www.saucedemo.com/\"","prefix":"","suffix":"","at":2253}
+{"type":"enterStep","prefix":"","actor":"I","args":["pptr.png"],"suffix":"","at":2253}
+{"type":"leaveStep","actor":"I","action":"saveScreenshot","args":["pptr.png"],"humanizedName":"save screenshot","humanizedArgs":"\"pptr.png\"","prefix":"","suffix":"","at":2587}
+{"type":"enterStep","prefix":"","actor":"I","args":["#user-name","standard_user"],"suffix":"","at":2588}
+{"type":"leaveStep","actor":"I","action":"typeText","args":["#user-name","standard_user"],"humanizedName":"type text","humanizedArgs":"\"#user-name\", \"standard_user\"","prefix":"","suffix":"","at":2655}
+{"type":"enterStep","prefix":"","actor":"I","args":["#password","secret_sauce"],"suffix":"","at":2655}
+{"type":"leaveStep","actor":"I","action":"typeText","args":["#password","secret_sauce"],"humanizedName":"type text","humanizedArgs":"\"#password\", \"secret_sauce\"","prefix":"","suffix":"","at":2697}
+{"type":"enterStep","prefix":"","actor":"I","args":["#login-button"],"suffix":"","at":2697}
+{"type":"leaveStep","actor":"I","action":"waitAndClick","args":["#login-button"],"humanizedName":"wait and click","humanizedArgs":"\"#login-button\"","prefix":"","suffix":"","at":2778}
+{"type":"enterStep","prefix":"","actor":"I","args":[1],"suffix":"","at":2779}
+{"type":"leaveStep","actor":"I","action":"wait","args":[1],"humanizedName":"wait","humanizedArgs":"1","prefix":"","suffix":"","at":3790}
+{"type":"enterStep","prefix":"","actor":"I","args":["Sauce Labs Backpack"],"suffix":"","at":3791}
+{"type":"leaveStep","actor":"I","action":"click","args":["Sauce Labs Backpack"],"humanizedName":"click","humanizedArgs":"\"Sauce Labs Backpack\"","prefix":"","suffix":"","at":3939}
+{"type":"enterStep","prefix":"","actor":"I","args":["#add-to-cart-sauce-labs-backpack"],"suffix":"","at":3939}
+{"type":"leaveStep","actor":"I","action":"waitAndClick","args":["#add-to-cart-sauce-labs-backpack"],"humanizedName":"wait and click","humanizedArgs":"\"#add-to-cart-sauce-labs-backpack\"","prefix":"","suffix":"","at":3968}
+{"type":"enterStep","prefix":"","actor":"I","args":[".shopping_cart_link"],"suffix":"","at":3968}
+{"type":"leaveStep","actor":"I","action":"waitAndClick","args":[".shopping_cart_link"],"humanizedName":"wait and click","humanizedArgs":"\".shopping_cart_link\"","prefix":"","suffix":"","at":4000}
+{"type":"enterStep","prefix":"","actor":"I","args":["Sauce Labs Backpack"],"suffix":"","at":4000}
+{"type":"leaveStep","actor":"I","action":"see","args":["Sauce Labs Backpack"],"humanizedName":"see","humanizedArgs":"\"Sauce Labs Backpack\"","prefix":"","suffix":"","at":4008}
+{"type":"enterStep","prefix":"","actor":"I","args":[1],"suffix":"","at":4008}
+{"type":"leaveStep","actor":"I","action":"wait","args":[1],"humanizedName":"wait","humanizedArgs":"1","prefix":"","suffix":"","at":5023}
+{"type":"enterStep","prefix":"","actor":"I","args":["#checkout"],"suffix":"","at":5023}
+{"type":"leaveStep","actor":"I","action":"waitAndClick","args":["#checkout"],"humanizedName":"wait and click","humanizedArgs":"\"#checkout\"","prefix":"","suffix":"","at":5062}
+{"type":"enterStep","prefix":"","actor":"I","args":["#first-name","testuser"],"suffix":"","at":5062}
+{"type":"leaveStep","actor":"I","action":"typeText","args":["#first-name","testuser"],"humanizedName":"type text","humanizedArgs":"\"#first-name\", \"testuser\"","prefix":"","suffix":"","at":5118}
+{"type":"enterStep","prefix":"","actor":"I","args":["#last-name","testlastname"],"suffix":"","at":5118}
+{"type":"leaveStep","actor":"I","action":"typeText","args":["#last-name","testlastname"],"humanizedName":"type text","humanizedArgs":"\"#last-name\", \"testlastname\"","prefix":"","suffix":"","at":5181}
+{"type":"enterStep","prefix":"","actor":"I","args":["#postal-code","121212"],"suffix":"","at":5181}
+{"type":"leaveStep","actor":"I","action":"typeText","args":["#postal-code","121212"],"humanizedName":"type text","humanizedArgs":"\"#postal-code\", \"121212\"","prefix":"","suffix":"","at":5214}
+{"type":"testPassed","test":"Order product","at":5215}
+{"type":"leaveSuite","suite":"Checkout","at":5590}

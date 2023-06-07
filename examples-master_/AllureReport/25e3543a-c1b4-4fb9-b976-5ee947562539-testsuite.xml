@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1685968097149' stop='1685968105762'>
+    <name>Checkout</name>
+    <title>Checkout</title>
+    <test-cases>
+        <test-case start='1685968097150' status='failed' stop='1685968104827'>
+            <name>Mobile Calculator</name>
+            <title>Mobile Calculator</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5ae2016e-613c-48c1-ae13-7a0c02d5f0fb-attachment.png' type='image/png' size='138456'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'calcMobile')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'calcMobile')
+                    at D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\tests\step-definitions\BaseSteps.js:19:12
+                    at runSteps (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\lib\interfaces\gherkin.js:49:15)
+                    at Test.&lt;anonymous> (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\lib\interfaces\gherkin.js:89:46)
+                    at test.fn (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\mocha\lib\runnable.js:386:21)
+                    at Runnable.run (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\mocha\lib\runnable.js:330:7)
+                    at Runner.runTest (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\mocha\lib\runner.js:621:10)
+                    at D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\mocha\lib\runner.js:745:12
+                    at next (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\mocha\lib\runner.js:538:14)
+                    at D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\mocha\lib\runner.js:548:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

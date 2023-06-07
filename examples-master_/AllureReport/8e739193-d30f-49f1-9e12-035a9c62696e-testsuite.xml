@@ -1,0 +1,161 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684483350095' stop='1684483355672'>
+    <name>Checkout</name>
+    <title>Checkout</title>
+    <test-cases>
+        <test-case start='1684483350097' status='failed' stop='1684483355670'>
+            <name>Order product</name>
+            <title>Order product</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1684483350656' status='passed' stop='1684483352348'>
+                    <name>BasePage: launchApp </name>
+                    <title>BasePage: launchApp </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684483350656' status='passed' stop='1684483352348'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684483352348' status='passed' stop='1684483352683'>
+                    <name>Given Launch Application </name>
+                    <title>Given Launch Application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684483352348' status='passed' stop='1684483352683'>
+                            <name>I save screenshot "pptr.png"</name>
+                            <title>I save screenshot "pptr.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684483352683' status='passed' stop='1684483352874'>
+                    <name>BasePage: login "standard_user", "secret_sauce"</name>
+                    <title>BasePage: login "standard_user", "secret_sauce"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684483352683' status='passed' stop='1684483352750'>
+                            <name>I type text "#user-name", "standard_user"</name>
+                            <title>I type text "#user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684483352750' status='passed' stop='1684483352792'>
+                            <name>I type text "#password", "secret_sauce"</name>
+                            <title>I type text "#password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684483352792' status='passed' stop='1684483352873'>
+                            <name>I wait and click "#login-button"</name>
+                            <title>I wait and click "#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684483352874' status='passed' stop='1684483353886'>
+                    <name>Then I login to the application </name>
+                    <title>Then I login to the application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684483352874' status='passed' stop='1684483353886'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684483353886' status='passed' stop='1684483354104'>
+                    <name>BasePage: addToCart "Sauce Labs Backpack"</name>
+                    <title>BasePage: addToCart "Sauce Labs Backpack"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684483353886' status='passed' stop='1684483354034'>
+                            <name>I click "Sauce Labs Backpack"</name>
+                            <title>I click "Sauce Labs Backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684483354034' status='passed' stop='1684483354063'>
+                            <name>I wait and click "#add-to-cart-sauce-labs-backpack"</name>
+                            <title>I wait and click "#add-to-cart-sauce-labs-backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684483354063' status='passed' stop='1684483354095'>
+                            <name>I wait and click ".shopping_cart_link"</name>
+                            <title>I wait and click ".shopping_cart_link"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684483354095' status='passed' stop='1684483354103'>
+                            <name>I see "Sauce Labs Backpack"</name>
+                            <title>I see "Sauce Labs Backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684483354104' status='passed' stop='1684483355119'>
+                    <name>Then I add 'Sauce Labs Backpack' product to cart </name>
+                    <title>Then I add 'Sauce Labs Backpack' product to cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684483354104' status='passed' stop='1684483355118'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684483355119' status='passed' stop='1684483355309'>
+                    <name>BasePage: checkoutFromCart {"uid":"standard_user","pwd":"secret_sauce","firstname":"testuser","lastname":"testlastname","postalcode":"121212"}</name>
+                    <title>BasePage: checkoutFromCart {"uid":"standard_user","pwd":"secret_sauce","firstname":"testuser","lastname":"testlastname","postalcode":"121212"}</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684483355119' status='passed' stop='1684483355157'>
+                            <name>I wait and click "#checkout"</name>
+                            <title>I wait and click "#checkout"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684483355158' status='passed' stop='1684483355213'>
+                            <name>I type text "#first-name", "testuser"</name>
+                            <title>I type text "#first-name", "testuser"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684483355213' status='passed' stop='1684483355276'>
+                            <name>I type text "#last-name", "testlastname"</name>
+                            <title>I type text "#last-name", "testlastname"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684483355276' status='passed' stop='1684483355309'>
+                            <name>I type text "#postal-code", "121212"</name>
+                            <title>I type text "#postal-code", "121212"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'browserContext')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'browserContext')
+                    at VideoHelper._after (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs-video-helper\index.js:157:21)
+                    at D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\lib\listener\helpers.js:26:69</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

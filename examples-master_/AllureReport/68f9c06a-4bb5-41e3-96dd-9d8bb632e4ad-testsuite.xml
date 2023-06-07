@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1685969123930' stop='1685969154244'>
+    <name>Checkout</name>
+    <title>Checkout</title>
+    <test-cases>
+        <test-case start='1685969123935' status='failed' stop='1685969132819'>
+            <name>Order product</name>
+            <title>Order product</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1685969132082' status='failed' stop='1685969132819'>
+                    <name>BasePage: launchApp </name>
+                    <title>BasePage: launchApp </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969132082' status='failed' stop='1685969132818'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='1468108e-ca10-4b0e-bbc2-380fed9d1de3-attachment.png' type='image/png' size='137661'/>
+            </attachments>
+            <failure>
+                <message>An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=https://www.saucedemo.com/... pkg=com.google.android.calculator }
+                Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=https://www.saucedemo.com/... flg=0x10000000 pkg=com.google.android.calculator }</message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=https://www.saucedemo.com/... pkg=com.google.android.calculator }
+                Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=https://www.saucedemo.com/... flg=0x10000000 pkg=com.google.android.calculator }
+                    at getErrorFromResponseBody (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\node_modules\webdriver\build\utils.js:121:10)
+                    at Request._callback (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\node_modules\webdriver\build\request.js:121:64)
+                    at self.callback (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\request\request.js:185:22)
+                    at Request.emit (node:events:513:28)
+                    at Request.emit (node:domain:489:12)
+                    at Request.&lt;anonymous> (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\request\request.js:1154:10)
+                    at Request.emit (node:events:513:28)
+                    at Request.emit (node:domain:489:12)
+                    at IncomingMessage.&lt;anonymous> (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\request\request.js:1076:12)
+                    at Object.onceWrapper (node:events:627:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1685969133719' status='passed' stop='1685969153761'>
+            <name>Mobile Calculator</name>
+            <title>Mobile Calculator</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1685969143505' status='passed' stop='1685969153761'>
+                    <name>BasePage: calcMobile </name>
+                    <title>BasePage: calcMobile </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969143505' status='passed' stop='1685969148510'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969148510' status='passed' stop='1685969148895'>
+                            <name>I save screenshot "1.png"</name>
+                            <title>I save screenshot "1.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969148895' status='passed' stop='1685969150231'>
+                            <name>I tap "#com.google.android.calculator:id/digit_5"</name>
+                            <title>I tap "#com.google.android.calculator:id/digit_5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969150231' status='passed' stop='1685969151149'>
+                            <name>I tap "~plus"</name>
+                            <title>I tap "~plus"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969151149' status='passed' stop='1685969152121'>
+                            <name>I tap "#com.google.android.calculator:id/digit_2"</name>
+                            <title>I tap "#com.google.android.calculator:id/digit_2"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969152121' status='passed' stop='1685969153355'>
+                            <name>I tap "~equals"</name>
+                            <title>I tap "~equals"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969153355' status='passed' stop='1685969153760'>
+                            <name>I save screenshot "2.png"</name>
+                            <title>I save screenshot "2.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

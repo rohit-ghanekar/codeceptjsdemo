@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1685969039427' stop='1685969058827'>
+    <name>Checkout</name>
+    <title>Checkout</title>
+    <test-cases>
+        <test-case start='1685969039430' status='passed' stop='1685969058292'>
+            <name>Mobile Calculator</name>
+            <title>Mobile Calculator</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1685969047995' status='passed' stop='1685969058292'>
+                    <name>BasePage: calcMobile </name>
+                    <title>BasePage: calcMobile </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1685969047995' status='passed' stop='1685969053013'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969053013' status='passed' stop='1685969053407'>
+                            <name>I save screenshot "1.png"</name>
+                            <title>I save screenshot "1.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969053407' status='passed' stop='1685969054789'>
+                            <name>I tap "#com.google.android.calculator:id/digit_5"</name>
+                            <title>I tap "#com.google.android.calculator:id/digit_5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969054789' status='passed' stop='1685969055768'>
+                            <name>I tap "~plus"</name>
+                            <title>I tap "~plus"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969055768' status='passed' stop='1685969056751'>
+                            <name>I tap "#com.google.android.calculator:id/digit_2"</name>
+                            <title>I tap "#com.google.android.calculator:id/digit_2"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969056751' status='passed' stop='1685969057888'>
+                            <name>I tap "~equals"</name>
+                            <title>I tap "~equals"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1685969057888' status='passed' stop='1685969058292'>
+                            <name>I save screenshot "2.png"</name>
+                            <title>I save screenshot "2.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

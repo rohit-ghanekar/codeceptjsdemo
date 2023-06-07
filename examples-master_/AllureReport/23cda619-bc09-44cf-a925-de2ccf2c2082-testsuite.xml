@@ -1,0 +1,158 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684419194214' stop='1684419386231'>
+    <name>Checkout</name>
+    <title>Checkout</title>
+    <test-cases>
+        <test-case start='1684419194219' status='failed' stop='1684419385382'>
+            <name>Order product</name>
+            <title>Order product</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1684419194828' status='passed' stop='1684419196303'>
+                    <name>BasePage: launchApp </name>
+                    <title>BasePage: launchApp </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684419194828' status='passed' stop='1684419196303'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684419196304' status='passed' stop='1684419196664'>
+                    <name>Given Launch Application </name>
+                    <title>Given Launch Application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684419196304' status='passed' stop='1684419196664'>
+                            <name>I save screenshot "pptr.png"</name>
+                            <title>I save screenshot "pptr.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684419196664' status='passed' stop='1684419196953'>
+                    <name>BasePage: login "standard_user", "secret_sauce"</name>
+                    <title>BasePage: login "standard_user", "secret_sauce"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684419196664' status='passed' stop='1684419196762'>
+                            <name>I type text "#user-name", "standard_user"</name>
+                            <title>I type text "#user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684419196763' status='passed' stop='1684419196842'>
+                            <name>I type text "#password", "secret_sauce"</name>
+                            <title>I type text "#password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684419196842' status='passed' stop='1684419196952'>
+                            <name>I wait and click "#login-button"</name>
+                            <title>I wait and click "#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684419196953' status='passed' stop='1684419197955'>
+                    <name>Then I login to the application </name>
+                    <title>Then I login to the application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684419196953' status='passed' stop='1684419197955'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684419197955' status='passed' stop='1684419232851'>
+                    <name>BasePage: addToCart "Sauce Labs Backpack"</name>
+                    <title>BasePage: addToCart "Sauce Labs Backpack"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684419197955' status='passed' stop='1684419198090'>
+                            <name>I click "Sauce Labs Backpack"</name>
+                            <title>I click "Sauce Labs Backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684419198090' status='passed' stop='1684419198114'>
+                            <name>I wait and click "#add-to-cart-sauce-labs-backpack"</name>
+                            <title>I wait and click "#add-to-cart-sauce-labs-backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684419198114' status='passed' stop='1684419198153'>
+                            <name>I wait and click ".shopping_cart_link"</name>
+                            <title>I wait and click ".shopping_cart_link"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1684419198153' status='passed' stop='1684419198165'>
+                            <name>I see "Sauce Labs Backpack"</name>
+                            <title>I see "Sauce Labs Backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684419232851' status='passed' stop='1684419232994'>
+                    <name>I click "checkout"</name>
+                    <title>I click "checkout"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684419354361' status='passed' stop='1684419355374'>
+                    <name>Then I add 'Sauce Labs Backpack' product to cart </name>
+                    <title>Then I add 'Sauce Labs Backpack' product to cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684419354361' status='passed' stop='1684419355373'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684419355374' status='failed' stop='1684419385382'>
+                    <name>BasePage: checkoutFromCart {"uid":"standard_user","pwd":"secret_sauce","firstname":"testuser","lastname":"testlastname","postalcode":"121212"}</name>
+                    <title>BasePage: checkoutFromCart {"uid":"standard_user","pwd":"secret_sauce","firstname":"testuser","lastname":"testlastname","postalcode":"121212"}</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684419355374' status='failed' stop='1684419385381'>
+                            <name>I wait and click "#checkout"</name>
+                            <title>I wait and click "#checkout"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='1f364168-eed2-4e36-90a6-e5c08ea68333-attachment.png' type='image/png' size='25234'/>
+            </attachments>
+            <failure>
+                <message>waiting for selector "#checkout" failed: timeout 30000ms exceeded</message>
+                <stack-trace>TimeoutError: waiting for selector "#checkout" failed: timeout 30000ms exceeded
+                    at new WaitTask (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\puppeteer\lib\DOMWorld.js:549:28)
+                    at DOMWorld._waitForSelectorOrXPath (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\puppeteer\lib\DOMWorld.js:478:22)
+                    at DOMWorld.waitForSelector (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\puppeteer\lib\DOMWorld.js:432:17)
+                    at Frame.waitForSelector (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\puppeteer\lib\FrameManager.js:627:47)
+                    at Frame.&lt;anonymous> (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\puppeteer\lib\helper.js:112:23)
+                    at Page.waitForSelector (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\puppeteer\lib\Page.js:1125:29)
+                    at CustomHelper.waitAndClick (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\tests\helpers\puppeteer.helper.js:26:27)
+                    at Step.run (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\lib\step.js:66:47)
+                    at D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\lib\actor.js:119:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1685966980037' stop='1685966980391'>
+    <name>Checkout</name>
+    <title>Checkout</title>
+    <test-cases>
+        <test-case start='1685966980040' status='failed' stop='1685966980386'>
+            <name>Mobile Calculator</name>
+            <title>Mobile Calculator</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't connect to WebDriver.
+                Error: Failed to create session.
+                An unknown server-side error occurred while processing the command. Original error: The application at 'D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\app\calc.apk' does not exist or is not accessible
+                
+                Please make sure Selenium Server (ChromeDriver or PhantomJS) is running and accessible</message>
+                <stack-trace>Error: Failed to create session.
+                An unknown server-side error occurred while processing the command. Original error: The application at 'D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\app\calc.apk' does not exist or is not accessible
+                    at startWebDriverSession (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\node_modules\webdriver\build\utils.js:45:11)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async WebDriver.newSession (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\node_modules\webdriver\build\index.js:44:23)
+                    at async Object.remote (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\node_modules\webdriverio\build\index.js:55:20)
+                    at async Appium._startBrowser (D:\Projects\CodeceptJSDemo\examples-master_intregratedwithexcel_json\examples-master\node_modules\codeceptjs\lib\helper\Appium.js:230:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
